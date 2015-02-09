@@ -107,6 +107,7 @@ var interpret_calc = function(equation) {
 //testing order of operations//
 console.log("1 + 3 * 7 | Should return 22:", interpret_calc("1 + 3 * 7"))
 console.log("1 + 2 / 2 * 3 | Should return 4:", interpret_calc("1 + 2 / 2 * 3"))
+console.log("1 - 2 / 2 + 3 | Should return 3:", interpret_calc("1 - 2 / 2 + 3"))
 
 //testing mult and division//
 console.log("1 + 7 * 4 / 2 | Should return 15:", interpret_calc("1 + 7 * 4 / 2"))
